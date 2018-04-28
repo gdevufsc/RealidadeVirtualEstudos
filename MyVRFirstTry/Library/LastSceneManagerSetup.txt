@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/AssetsNovosOrganizados/JogoDoAcucarGVR.unity
+- path: Assets/AssetsNovosOrganizados/GravandoVideo360.unity
   isLoaded: 1
   isActive: 1
