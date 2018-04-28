@@ -106,10 +106,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 679, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+  m_MinSize: {x: 683, y: 492}
+  m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 49
+  controlID: 36
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -130,10 +130,10 @@ MonoBehaviour:
     y: 0
     width: 1365
     height: 947
-  m_MinSize: {x: 404, y: 492}
+  m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 50
+  controlID: 37
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -154,10 +154,10 @@ MonoBehaviour:
     y: 0
     width: 1365
     height: 533
-  m_MinSize: {x: 404, y: 221}
-  m_MaxSize: {x: 8004, y: 4021}
+  m_MinSize: {x: 406, y: 221}
+  m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 51
+  controlID: 38
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -255,8 +255,8 @@ MonoBehaviour:
     y: 0
     width: 555
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 71}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -370,9 +370,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: d61cfeff
-    m_LastClickedID: -123690
-    m_ExpandedIDs: 90fbffff00000000e830000010310000
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: a065feff7a66feff9869feff94fbffff00000000403100007a310000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -428,9 +428,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.6042832, y: 0.42127734, z: -0.520218}
+    m_Target: {x: 0.006398648, y: 0.23127398, z: -1.1439629}
     speed: 2
-    m_Value: {x: -0.6042832, y: 0.42127734, z: -0.520218}
+    m_Value: {x: 0.006398648, y: 0.23127398, z: -1.1439629}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -454,13 +454,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.036598288, y: 0.9516315, z: -0.12519832, w: 0.27817884}
+    m_Target: {x: -0.00010374055, y: 0.9996814, z: 0.004187954, w: 0.024891552}
     speed: 2
-    m_Value: {x: 0.036598288, y: 0.9516315, z: -0.12519832, w: 0.27817884}
+    m_Value: {x: -0.00010374055, y: 0.9996814, z: 0.004187954, w: 0.024891552}
   m_Size:
-    m_Target: 2.1452343
+    m_Target: 2.5536559
     speed: 2
-    m_Value: 2.1452343
+    m_Value: 2.5536559
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -538,19 +538,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/CapturePanorama
+    - Assets/AssetsParaPlayVideo360/MaterialsEVideos
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/CapturePanorama
+  - Assets/AssetsParaPlayVideo360/MaterialsEVideos
   m_LastFoldersGridSize: -1
   m_LastProjectPath: "C:\\Users\\Cain\xE3\\Documents\\GitHub\\RealidadeVirtualEstudos\\MyVRFirstTry"
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 6c320000
-    m_LastClickedID: 12908
-    m_ExpandedIDs: 00000000a82b0000ea2b00002a2c00004a2c0000b22c0000642d0000b82d0000d02d0000d22d0000922e00006c32000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: 90320000
+    m_LastClickedID: 12944
+    m_ExpandedIDs: 00000000c82b00000c2c00001a2c0000542c0000762c0000de2c0000902d0000e62d0000002e0000022e0000842e0000cc2e000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -578,7 +578,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a82b0000ea2b00002a2c00004a2c0000b22c0000642d0000b82d0000d02d0000d22d0000922e0000
+    m_ExpandedIDs: 00000000c82b00000c2c0000542c0000762c0000de2c0000902d0000e62d0000002e0000022e0000842e0000cc2e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

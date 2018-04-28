@@ -1,7 +1,4 @@
 Base path: Z:/Caina/Programas/Unity2017.4.1f1/Editor/Data
 Cmd: initializeCompiler
 Cmd: compileComputeKernel
-  api=4 insize=10728 outsize=3945 ok=1
-Cmd: compileComputeKernel
-  error: 1 plat 4 at TextureToBufferShader.compute(21): pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
-  api=4 insize=1180 outsize=1505 ok=1
+  api=4 insize=10728 outsize=3937 ok=1
