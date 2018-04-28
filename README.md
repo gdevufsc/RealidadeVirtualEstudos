@@ -1,2 +1,2 @@
-# RealidadeVirtualEstudos
-Bugou o EstudosRealidadeVirtual, dai fiz esse xD
+# EstudosRealidadeVirtual
+Coloque aqui coisas que valem a pena serem estudadas no tocante a Realidade Virtual

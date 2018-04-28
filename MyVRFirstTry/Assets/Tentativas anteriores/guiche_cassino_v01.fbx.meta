@@ -1,0 +1,477 @@
+fileFormatVersion: 2
+guid: 3725084ecb3588a42b16a7ec0d15484a
+timeCreated: 1520896977
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: cardboard_010
+    100002: cardboard_011
+    100004: cardboard_012
+    100006: cardboard_013
+    100008: cardboard_015
+    100010: cardboard_016
+    100012: cardboard_017
+    100014: cardboard_018
+    100016: cardboard_019
+    100018: cardboard_020
+    100020: cardboard_021
+    100022: cardboard_022
+    100024: cardboard_023
+    100026: cardboard_024
+    100028: cardboard_025
+    100030: cardboard_026
+    100032: cardboard_027
+    100034: cardboard_028
+    100036: cardboard_04
+    100038: cardboard_05
+    100040: cardboard_06
+    100042: cardboard_07
+    100044: cardboard_08
+    100046: cardboard_09
+    100048: Cardboards
+    100050: cardboards_floor
+    100052: celling
+    100054: courtain_01
+    100056: courtain_02
+    100058: Curtains
+    100060: dart
+    100062: dart1
+    100064: dart2
+    100066: door
+    100068: fixer
+    100070: floor
+    100072: floor_celling
+    100074: grade_low
+    100076: grade_low1
+    100078: Grid
+    100080: Guiche
+    100082: Guiche1
+    100084: //RootNode
+    100086: Lamps
+    100088: Luminaria1
+    100090: Luminaria2
+    100092: Luminaria3
+    100094: Metal_board
+    100096: metal_board
+    100098: Metal_board 1
+    100100: metal_board1
+    100102: metal_board2
+    100104: metal_board3
+    100106: metal_board4
+    100108: metal_board5
+    100110: metal_board6
+    100112: Mug
+    100114: Ornaments
+    100116: paint
+    100118: pCube4
+    100120: pCube4 1
+    100122: pCube7
+    100124: pCube7 1
+    100126: pCube8
+    100128: pCube8 1
+    100130: pCube9
+    100132: pCube9 1
+    100134: polySurface100
+    100136: polySurface97
+    100138: pPlane1
+    100140: pPlane1 1
+    100142: pPlane2
+    100144: pPlane2 1
+    100146: pPlane3
+    100148: pPlane3 1
+    100150: side_table
+    100152: stopper
+    100154: Table_coint
+    100156: Target
+    100158: target_shooting
+    100160: ticket_windows
+    100162: Tomato_can_HIG
+    100164: Tomato_can_HIG1
+    100166: wall_back
+    100168: wall_front
+    100170: wall_middle
+    100172: walls
+    400000: cardboard_010
+    400002: cardboard_011
+    400004: cardboard_012
+    400006: cardboard_013
+    400008: cardboard_015
+    400010: cardboard_016
+    400012: cardboard_017
+    400014: cardboard_018
+    400016: cardboard_019
+    400018: cardboard_020
+    400020: cardboard_021
+    400022: cardboard_022
+    400024: cardboard_023
+    400026: cardboard_024
+    400028: cardboard_025
+    400030: cardboard_026
+    400032: cardboard_027
+    400034: cardboard_028
+    400036: cardboard_04
+    400038: cardboard_05
+    400040: cardboard_06
+    400042: cardboard_07
+    400044: cardboard_08
+    400046: cardboard_09
+    400048: Cardboards
+    400050: cardboards_floor
+    400052: celling
+    400054: courtain_01
+    400056: courtain_02
+    400058: Curtains
+    400060: dart
+    400062: dart1
+    400064: dart2
+    400066: door
+    400068: fixer
+    400070: floor
+    400072: floor_celling
+    400074: grade_low
+    400076: grade_low1
+    400078: Grid
+    400080: Guiche
+    400082: Guiche1
+    400084: //RootNode
+    400086: Lamps
+    400088: Luminaria1
+    400090: Luminaria2
+    400092: Luminaria3
+    400094: Metal_board
+    400096: metal_board
+    400098: Metal_board 1
+    400100: metal_board1
+    400102: metal_board2
+    400104: metal_board3
+    400106: metal_board4
+    400108: metal_board5
+    400110: metal_board6
+    400112: Mug
+    400114: Ornaments
+    400116: paint
+    400118: pCube4
+    400120: pCube4 1
+    400122: pCube7
+    400124: pCube7 1
+    400126: pCube8
+    400128: pCube8 1
+    400130: pCube9
+    400132: pCube9 1
+    400134: polySurface100
+    400136: polySurface97
+    400138: pPlane1
+    400140: pPlane1 1
+    400142: pPlane2
+    400144: pPlane2 1
+    400146: pPlane3
+    400148: pPlane3 1
+    400150: side_table
+    400152: stopper
+    400154: Table_coint
+    400156: Target
+    400158: target_shooting
+    400160: ticket_windows
+    400162: Tomato_can_HIG
+    400164: Tomato_can_HIG1
+    400166: wall_back
+    400168: wall_front
+    400170: wall_middle
+    400172: walls
+    2100000: M_guiche_cassino_floor_celling
+    2100002: M_guiche_cassino_curtains
+    2100004: M_guiche_cassino_walls
+    2100006: M_cassino_guiche_grids
+    2100008: M_guiche_cassino_ornaments
+    2300000: cardboard_010
+    2300002: cardboard_011
+    2300004: cardboard_012
+    2300006: cardboard_013
+    2300008: cardboard_015
+    2300010: cardboard_016
+    2300012: cardboard_017
+    2300014: cardboard_018
+    2300016: cardboard_019
+    2300018: cardboard_020
+    2300020: cardboard_021
+    2300022: cardboard_022
+    2300024: cardboard_023
+    2300026: cardboard_024
+    2300028: cardboard_025
+    2300030: cardboard_026
+    2300032: cardboard_027
+    2300034: cardboard_028
+    2300036: cardboard_04
+    2300038: cardboard_05
+    2300040: cardboard_06
+    2300042: cardboard_07
+    2300044: cardboard_08
+    2300046: cardboard_09
+    2300048: celling
+    2300050: courtain_01
+    2300052: courtain_02
+    2300054: dart
+    2300056: dart1
+    2300058: dart2
+    2300060: fixer
+    2300062: floor
+    2300064: grade_low
+    2300066: grade_low1
+    2300068: Luminaria1
+    2300070: Luminaria2
+    2300072: Luminaria3
+    2300074: metal_board
+    2300076: metal_board1
+    2300078: metal_board2
+    2300080: metal_board3
+    2300082: metal_board4
+    2300084: metal_board5
+    2300086: metal_board6
+    2300088: Mug
+    2300090: paint
+    2300092: pCube4
+    2300094: pCube4 1
+    2300096: pCube7
+    2300098: pCube7 1
+    2300100: pCube8
+    2300102: pCube8 1
+    2300104: pCube9
+    2300106: pCube9 1
+    2300108: polySurface100
+    2300110: polySurface97
+    2300112: pPlane1
+    2300114: pPlane1 1
+    2300116: pPlane2
+    2300118: pPlane2 1
+    2300120: pPlane3
+    2300122: pPlane3 1
+    2300124: stopper
+    2300126: Table_coint
+    2300128: Target
+    2300130: Tomato_can_HIG
+    2300132: Tomato_can_HIG1
+    2300134: wall_back
+    2300136: wall_front
+    2300138: wall_middle
+    3300000: cardboard_010
+    3300002: cardboard_011
+    3300004: cardboard_012
+    3300006: cardboard_013
+    3300008: cardboard_015
+    3300010: cardboard_016
+    3300012: cardboard_017
+    3300014: cardboard_018
+    3300016: cardboard_019
+    3300018: cardboard_020
+    3300020: cardboard_021
+    3300022: cardboard_022
+    3300024: cardboard_023
+    3300026: cardboard_024
+    3300028: cardboard_025
+    3300030: cardboard_026
+    3300032: cardboard_027
+    3300034: cardboard_028
+    3300036: cardboard_04
+    3300038: cardboard_05
+    3300040: cardboard_06
+    3300042: cardboard_07
+    3300044: cardboard_08
+    3300046: cardboard_09
+    3300048: celling
+    3300050: courtain_01
+    3300052: courtain_02
+    3300054: dart
+    3300056: dart1
+    3300058: dart2
+    3300060: fixer
+    3300062: floor
+    3300064: grade_low
+    3300066: grade_low1
+    3300068: Luminaria1
+    3300070: Luminaria2
+    3300072: Luminaria3
+    3300074: metal_board
+    3300076: metal_board1
+    3300078: metal_board2
+    3300080: metal_board3
+    3300082: metal_board4
+    3300084: metal_board5
+    3300086: metal_board6
+    3300088: Mug
+    3300090: paint
+    3300092: pCube4
+    3300094: pCube4 1
+    3300096: pCube7
+    3300098: pCube7 1
+    3300100: pCube8
+    3300102: pCube8 1
+    3300104: pCube9
+    3300106: pCube9 1
+    3300108: polySurface100
+    3300110: polySurface97
+    3300112: pPlane1
+    3300114: pPlane1 1
+    3300116: pPlane2
+    3300118: pPlane2 1
+    3300120: pPlane3
+    3300122: pPlane3 1
+    3300124: stopper
+    3300126: Table_coint
+    3300128: Target
+    3300130: Tomato_can_HIG
+    3300132: Tomato_can_HIG1
+    3300134: wall_back
+    3300136: wall_front
+    3300138: wall_middle
+    4300000: celling
+    4300002: cardboard_04
+    4300004: cardboard_05
+    4300006: cardboard_06
+    4300008: cardboard_07
+    4300010: cardboard_08
+    4300012: cardboard_09
+    4300014: cardboard_010
+    4300016: cardboard_011
+    4300018: cardboard_012
+    4300020: cardboard_013
+    4300022: cardboard_015
+    4300024: cardboard_016
+    4300026: cardboard_017
+    4300028: cardboard_018
+    4300030: floor
+    4300032: metal_board5
+    4300034: metal_board6
+    4300036: cardboard_019
+    4300038: cardboard_020
+    4300040: cardboard_021
+    4300042: cardboard_022
+    4300044: cardboard_023
+    4300046: cardboard_024
+    4300048: cardboard_025
+    4300050: cardboard_026
+    4300052: cardboard_027
+    4300054: cardboard_028
+    4300056: fixer
+    4300058: courtain_01
+    4300060: courtain_02
+    4300062: wall_middle
+    4300064: wall_front
+    4300066: wall_back
+    4300068: metal_board2
+    4300070: metal_board1
+    4300072: metal_board3
+    4300074: metal_board4
+    4300076: metal_board
+    4300078: polySurface97
+    4300080: polySurface100
+    4300082: Tomato_can_HIG1
+    4300084: pPlane2
+    4300086: pPlane3
+    4300088: pPlane1
+    4300090: pCube9
+    4300092: pCube8
+    4300094: pCube7
+    4300096: pCube4
+    4300098: Tomato_can_HIG
+    4300100: pPlane2
+    4300102: pPlane3
+    4300104: pPlane1
+    4300106: pCube9
+    4300108: pCube8
+    4300110: pCube7
+    4300112: pCube4
+    4300114: grade_low1
+    4300116: grade_low
+    4300118: paint
+    4300120: Target
+    4300122: dart
+    4300124: dart1
+    4300126: dart2
+    4300128: Mug
+    4300130: Table_coint
+    4300132: stopper
+    4300134: Luminaria3
+    4300136: Luminaria2
+    4300138: Luminaria1
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

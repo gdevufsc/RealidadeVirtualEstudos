@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/AssetsNovosOrganizados/JogoDoAcucarGVR.unity
+  isLoaded: 1
+  isActive: 1

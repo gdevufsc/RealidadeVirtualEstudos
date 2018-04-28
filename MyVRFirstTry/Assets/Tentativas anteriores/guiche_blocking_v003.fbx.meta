@@ -1,0 +1,252 @@
+fileFormatVersion: 2
+guid: 1e624655a198d554687e3c5afed47abd
+timeCreated: 1520897174
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: cortina
+    100002: cortina 1
+    100004: cortina1
+    100006: door
+    100008: floor
+    100010: floor2
+    100012: floor_celling
+    100014: guiche
+    100016: guiche_
+    100018: guiche_1
+    100020: guiche_2
+    100022: guiche_3
+    100024: //RootNode
+    100026: luminaria
+    100028: luminaria 1
+    100030: luminaria1
+    100032: luminaria2
+    100034: moveis
+    100036: moveis_
+    100038: moveis_1
+    100040: moveis_2
+    100042: moveis_3
+    100044: pCube2
+    100046: persoangem
+    100048: polySurface100
+    100050: polySurface97
+    100052: polySurface98
+    100054: polySurface99
+    100056: pPlane3
+    100058: pPlane4
+    100060: wall_1
+    100062: wall_2
+    100064: wall_3
+    100066: wall_4
+    100068: wall_5
+    100070: wall_6
+    100072: walls
+    400000: cortina
+    400002: cortina 1
+    400004: cortina1
+    400006: door
+    400008: floor
+    400010: floor2
+    400012: floor_celling
+    400014: guiche
+    400016: guiche_
+    400018: guiche_1
+    400020: guiche_2
+    400022: guiche_3
+    400024: //RootNode
+    400026: luminaria
+    400028: luminaria 1
+    400030: luminaria1
+    400032: luminaria2
+    400034: moveis
+    400036: moveis_
+    400038: moveis_1
+    400040: moveis_2
+    400042: moveis_3
+    400044: pCube2
+    400046: persoangem
+    400048: polySurface100
+    400050: polySurface97
+    400052: polySurface98
+    400054: polySurface99
+    400056: pPlane3
+    400058: pPlane4
+    400060: wall_1
+    400062: wall_2
+    400064: wall_3
+    400066: wall_4
+    400068: wall_5
+    400070: wall_6
+    400072: walls
+    2100000: OLHO
+    2100002: CORPO
+    2100004: lambert1
+    2300000: cortina 1
+    2300002: cortina1
+    2300004: floor
+    2300006: floor2
+    2300008: guiche_
+    2300010: guiche_1
+    2300012: guiche_2
+    2300014: guiche_3
+    2300016: luminaria 1
+    2300018: luminaria1
+    2300020: luminaria2
+    2300022: moveis_
+    2300024: moveis_1
+    2300026: moveis_2
+    2300028: moveis_3
+    2300030: pCube2
+    2300032: persoangem
+    2300034: polySurface100
+    2300036: polySurface97
+    2300038: polySurface98
+    2300040: polySurface99
+    2300042: pPlane3
+    2300044: pPlane4
+    2300046: wall_1
+    2300048: wall_2
+    2300050: wall_3
+    2300052: wall_4
+    2300054: wall_5
+    2300056: wall_6
+    3300000: cortina 1
+    3300002: cortina1
+    3300004: floor
+    3300006: floor2
+    3300008: guiche_
+    3300010: guiche_1
+    3300012: guiche_2
+    3300014: guiche_3
+    3300016: luminaria 1
+    3300018: luminaria1
+    3300020: luminaria2
+    3300022: moveis_
+    3300024: moveis_1
+    3300026: moveis_2
+    3300028: moveis_3
+    3300030: pCube2
+    3300032: persoangem
+    3300034: polySurface100
+    3300036: polySurface97
+    3300038: polySurface98
+    3300040: polySurface99
+    3300042: pPlane3
+    3300044: pPlane4
+    3300046: wall_1
+    3300048: wall_2
+    3300050: wall_3
+    3300052: wall_4
+    3300054: wall_5
+    3300056: wall_6
+    4300000: persoangem
+    4300002: polySurface97
+    4300004: polySurface98
+    4300006: polySurface99
+    4300008: polySurface100
+    4300010: wall_1
+    4300012: wall_2
+    4300014: wall_3
+    4300016: wall_4
+    4300018: wall_5
+    4300020: wall_6
+    4300022: floor2
+    4300024: floor
+    4300026: cortina
+    4300028: cortina1
+    4300030: luminaria
+    4300032: luminaria1
+    4300034: luminaria2
+    4300036: moveis_
+    4300038: moveis_1
+    4300040: moveis_2
+    4300042: moveis_3
+    4300044: guiche_
+    4300046: guiche_1
+    4300048: guiche_2
+    4300050: guiche_3
+    4300052: pCube2
+    4300054: pPlane4
+    4300056: pPlane3
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

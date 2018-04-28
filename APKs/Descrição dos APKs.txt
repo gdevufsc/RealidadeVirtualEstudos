@@ -1,0 +1,6 @@
+Está organizado por data.. mês, dia e versão 04/01/02 vira 040102
+
+Teste040102 é uma cena de olhar para uma bola verde e rla trocar de lugar depois de 1 segundo
+É interessante observar que se quiser fazer um sistema de UI com meshes, vai ter que colocar uma na frente de cada olho, pra tentar.
+
+Teste 040501 é a mesma cena só que sem o cubinho vermelho voando na frente dos olhos.

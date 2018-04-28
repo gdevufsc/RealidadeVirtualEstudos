@@ -1,0 +1,16 @@
+Ajuda oficial geral da Unity pra VR: https://unity3d.com/pt/learn/tutorials/s/xr
+
+As considerações abaixo são sobre o pacote da Google para VR, encontre-o para donwnload em https://github.com/googlevr/gvr-unity-sdk/releases
+ajuda oficial para esse pacote em: https://developers.google.com/vr/develop/unity/get-started
+
+----O Script GvrEditorEmulator serve para simular o comportamento da VR no editor da Unity
+Ou seja, tu aperta Alt + meche o mouse na aba game e é como se vc mexesse a cabeça com o  óculos vr
+Para usá-lo crie um objeto chamado GvrEditorEmulator e adicione o componente script com esse script
+O caminho para ele é Assets>GoogleVR>GvrEditorEmulator
+
+
+----O script GvrPointerInputModule tem muitos comentários úteis! Encontrei ele originalmente no
+ojeto GvrEventSystem na cena Assets>GoogleVR>Demos>Scenes>HelloVr
+O caminho para esse script é GoogleVR>Scripts>EventSystem>InputModule
+
+---esse video parece interessante: https://www.youtube.com/watch?v=fzRVTjUp00w
