@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/AssetsNovosOrganizados/GravandoVideo360.unity
+- path: Assets/AssetsNovosOrganizados/Scenes/SistemaDeSimENaoEPlayVideo.unity
   isLoaded: 1
   isActive: 1

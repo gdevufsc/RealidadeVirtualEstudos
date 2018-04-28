@@ -1,8 +1,8 @@
 Android
 PlayerPath?
-C:/Users/Cainã/Documents/GitHub/RealidadeVirtualEstudos/APKs/Teste042802.apk
+C:/Users/Cainã/Documents/GitHub/RealidadeVirtualEstudos/APKs/Teste042803.apk
 SceneListBegin?
-Assets/AssetsNovosOrganizados/FromZeroVR.unity
+Assets/AssetsNovosOrganizados/Scenes/SistemaDeSimENaoEPlayVideo.unity
 SceneListEnd?
 176f67aae4ec7273cfef37fd8876bd9a Assembly-CSharp.dll:.GvrDropdown
 047843e8fc8efc789ac0ebf61a6343c3 Assembly-CSharp.dll:GoogleVR.HelloVR.HeadsetDemoManager
@@ -60,6 +60,7 @@ f61c0793411f10cf5fbfa1473fef5ef2 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 63819ec385f3bbd3917551066aa9525f Assembly-CSharp.dll:.OVRRaycaster
 8a8bbf8c923aa45b1565ce9733c32e8e Assembly-CSharp.dll:GoogleVR.PermissionsDemo.PermissionsFlowManager
 8b8d573315d3b0f2cea37c3653f4c9fb Assembly-CSharp.dll:GoogleVR.VideoDemo.AppButtonInput
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Nao
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 49cd62a578efc0a599b810a2b66cd49c UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -238,6 +239,7 @@ ccd25ccca39fd5159c3471f7762e1ced Assembly-CSharp.dll:.OVRMonoscopic
 9a93f748b7c6fda90f20cf8d995df907 Assembly-CSharp.dll:.OVRModeParms
 32e8fe00b63ed946490b898f6024a2f2 Facebook.Unity.Settings.dll:Facebook.Unity.Settings.FacebookSettings
 7da42ff76b471a89ac72bc31d7c7ad6d Assembly-CSharp.dll:.OVRGearVrControllerTest
+241f64224c3387035c4b98a8cd26c51e Assembly-CSharp.dll:.Sim
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
 60b2bb652410a5867a5ab9a01cd38461 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkDiscovery
@@ -253,6 +255,7 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 73843688b51256aed059f049c540bca8 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 528ea1fd7c01796fc60c4e2f172ea229 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
 72903e4446a2f2d54923b10a70b2c5ba Assembly-CSharp.dll:Gvr.Internal.InstantPreview
+af1524dc648c19eaa9fdb381fd967e69 Assembly-CSharp.dll:.MemoriaParaVideos
 7b7745d8d1ab7fe13f98bfffbf52c18d Assembly-CSharp.dll:.OVRWaitCursor
 1c952386af3ef6bd3c90a34c4fd12f6b Assembly-CSharp.dll:GoogleVR.HelloVR.ObjectController
 ccd25ccca39fd5159c3471f7762e1ced Assembly-CSharp.dll:.OVRChromaticAberration
