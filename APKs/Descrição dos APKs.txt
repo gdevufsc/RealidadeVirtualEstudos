@@ -8,3 +8,6 @@ Teste 040501 é a mesma cena só que sem o cubinho vermelho voando na frente dos o
 Teste 042801 é o jogo do acúcar usando o plugin Google VR, build para Cardboard
 
 Teste 042802 é para ser um video 360 que gravei na Unity (deu trabalho) de 2 segundos, só mostra o cubo girando um pouco e reinicia
+
+Teste042803 é para ter um botão S e um N, daí quando tu encara o S por um segundo ele dispara um video 360. Quando o video acaba, volta a cena que tava.
+Quando tu encara o S de novo, a idéia é que nada aconteça. O N também não deve fazer nada. 
