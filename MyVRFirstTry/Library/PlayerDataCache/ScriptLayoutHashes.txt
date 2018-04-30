@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Users/Cainã/Documents/GitHub/RealidadeVirtualEstudos/APKs/Teste042803.apk
+C:/Users/Cainã/Documents/GitHub/RealidadeVirtualEstudos/APKs/Teste043003.apk
 SceneListBegin?
 Assets/AssetsNovosOrganizados/Scenes/SistemaDeSimENaoEPlayVideo.unity
 SceneListEnd?
@@ -60,7 +60,7 @@ f61c0793411f10cf5fbfa1473fef5ef2 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 63819ec385f3bbd3917551066aa9525f Assembly-CSharp.dll:.OVRRaycaster
 8a8bbf8c923aa45b1565ce9733c32e8e Assembly-CSharp.dll:GoogleVR.PermissionsDemo.PermissionsFlowManager
 8b8d573315d3b0f2cea37c3653f4c9fb Assembly-CSharp.dll:GoogleVR.VideoDemo.AppButtonInput
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Nao
+1e890ec232087b66fbdc8892238823bb Assembly-CSharp.dll:.Nao
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 49cd62a578efc0a599b810a2b66cd49c UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -139,6 +139,7 @@ fb3ee2893af01293f100982698dc0b3b Assembly-CSharp.dll:.GambiarraScript
 783bf6d659235f53a950684dd61ab5b9 Assembly-CSharp.dll:.MouseLook
 5adc88bf7d1c618314bc1a0f0b3d6c47 Assembly-CSharp.dll:.GvrAudioSoundfield
 bb0ad8cb9cb04ab265277fa3ffe5f4ff Assembly-CSharp.dll:GoogleVR.VideoDemo.ToggleAction
+aeedd33047ed050c15c29a5fb4ee7376 Assembly-CSharp.dll:.TemSliderEContaTempo
 6c2d0e8bd6a0954a0dcfdf712749f082 Assembly-CSharp.dll:CapturePanorama.ReadPanoConfig
 322cb40e1e282f28af980cbef7922a90 UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsEventTracker
 dc07d7ad69b399a46e92c483bf1c04ca UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsTracker
@@ -239,7 +240,7 @@ ccd25ccca39fd5159c3471f7762e1ced Assembly-CSharp.dll:.OVRMonoscopic
 9a93f748b7c6fda90f20cf8d995df907 Assembly-CSharp.dll:.OVRModeParms
 32e8fe00b63ed946490b898f6024a2f2 Facebook.Unity.Settings.dll:Facebook.Unity.Settings.FacebookSettings
 7da42ff76b471a89ac72bc31d7c7ad6d Assembly-CSharp.dll:.OVRGearVrControllerTest
-241f64224c3387035c4b98a8cd26c51e Assembly-CSharp.dll:.Sim
+1e890ec232087b66fbdc8892238823bb Assembly-CSharp.dll:.Sim
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
 60b2bb652410a5867a5ab9a01cd38461 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkDiscovery

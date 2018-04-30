@@ -1,6 +1,6 @@
 Está organizado por data.. mês, dia e versão 04/01/02 vira 040102
 
-Teste040102 é uma cena de olhar para uma bola verde e rla trocar de lugar depois de 1 segundo
+Teste040102 é uma cena de olhar para uma bola verde e ela trocar de lugar depois de 1 segundo
 É interessante observar que se quiser fazer um sistema de UI com meshes, vai ter que colocar uma na frente de cada olho, pra tentar.
 
 Teste 040501 é a mesma cena só que sem o cubinho vermelho voando na frente dos olhos.
@@ -10,4 +10,6 @@ Teste 042801 é o jogo do acúcar usando o plugin Google VR, build para Cardboard
 Teste 042802 é para ser um video 360 que gravei na Unity (deu trabalho) de 2 segundos, só mostra o cubo girando um pouco e reinicia
 
 Teste042803 é para ter um botão S e um N, daí quando tu encara o S por um segundo ele dispara um video 360. Quando o video acaba, volta a cena que tava.
-Quando tu encara o S de novo, a idéia é que nada aconteça. O N também não deve fazer nada. 
+Quando tu encara o S de novo, a idéia é que nada aconteça. O N também não deve fazer nada. Funcionou no PC, mas o video não executa no smartphone.
+
+Teste 043002 é o anterior com o recurso transcode do video clip ativado, para fins de ver se o video passa a funcionar nos smartphones.
