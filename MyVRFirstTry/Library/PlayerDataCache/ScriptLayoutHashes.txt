@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Users/Cainã/Documents/GitHub/RealidadeVirtualEstudos/APKs/Teste043003.apk
+C:/Users/Cainã/Documents/GitHub/RealidadeVirtualEstudos/APKs/Teste043002.apk
 SceneListBegin?
 Assets/AssetsNovosOrganizados/Scenes/SistemaDeSimENaoEPlayVideo.unity
 SceneListEnd?
