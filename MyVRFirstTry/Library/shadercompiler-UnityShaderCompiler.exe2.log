@@ -1,2 +1,14 @@
 Base path: Z:/Caina/Programas/Unity2017.4.1f1/Editor/Data
 Cmd: initializeCompiler
+Cmd: compileComputeKernel
+  error: 1 plat 4 at (0): Program 'RenderStereo', warning X4714: sum of temp registers and indexable temp registers times 1024 threads exceeds the recommended total 16384.  Performance may be reduced
+  api=4 insize=11449 outsize=11005 ok=1
+Cmd: compileComputeKernel
+  api=9 insize=10728 outsize=7473 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=10728 outsize=5329 ok=1
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+
+Quitting shader compiler process
