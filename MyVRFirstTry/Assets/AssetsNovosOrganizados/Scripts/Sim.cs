@@ -13,7 +13,7 @@ public class Sim : TemSliderEContaTempo {
 
     public void ApertouSim()
     {
-        MemoriaParaVideos.enderecoAtualMemoria += '1';
+        MemoriaParaVideos.enderecoAtualMemoria += 's';
         memoriaParaVideos.PlayVideo();
     }
 

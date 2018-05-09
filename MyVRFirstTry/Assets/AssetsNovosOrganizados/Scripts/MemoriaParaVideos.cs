@@ -3,6 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Video;
 
+///esse script implementa um sistema para instanciar esferas para exibir videos 360.
+///alem disso, controla qual video sera exibido atraves de uma variavel String aa qual
+///deve ser concatenado s ou n.
+///Esse script (09/05/2018) estah sendo chamado pelos script "Sim" e "Nao" que estao
+///em dois botoes configurados para interacao em realidade virtual, usando o plugin GoogleVR
+
 public class MemoriaParaVideos : MonoBehaviour {
 
     public static string enderecoAtualMemoria = "";
@@ -14,10 +20,10 @@ public class MemoriaParaVideos : MonoBehaviour {
     {
         switch (enderecoAtualMemoria)
         {
-            case "0":
+            case "n":
                 print("casoZeroChamado");
             break;
-            case "1":
+            case "s":
                 print("Caso 1 escolhido");
                 GameObjectVideoClip0.SetActive(true);
                 VideoPlayer videoPlayer = GameObjectVideoClip0.GetComponent<VideoPlayer>();
@@ -31,13 +37,16 @@ public class MemoriaParaVideos : MonoBehaviour {
 
     IEnumerator GetRidOfSphere(VideoPlayer sphereVideoPlayer)
     {
-        while (!sphereVideoPlayer.isPlaying)
+        int k = 0;
+        while (!sphereVideoPlayer.isPlaying && k<600)
         {
+            k++;
             yield return null;
         }
-
-        while (sphereVideoPlayer.isPlaying)
+        k = 0;
+        while (sphereVideoPlayer.isPlaying && k<3600)
         {
+            k++;
             yield return null;
         }
         sphereVideoPlayer.gameObject.SetActive(false);

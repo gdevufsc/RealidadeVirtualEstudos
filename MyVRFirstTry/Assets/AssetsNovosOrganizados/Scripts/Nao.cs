@@ -14,7 +14,7 @@ public class Nao : TemSliderEContaTempo
 
     public void ApertouNao()
     {
-        MemoriaParaVideos.enderecoAtualMemoria += '0';
+        MemoriaParaVideos.enderecoAtualMemoria += 'n';
         memoriaParaVideos.PlayVideo();
     }
 
