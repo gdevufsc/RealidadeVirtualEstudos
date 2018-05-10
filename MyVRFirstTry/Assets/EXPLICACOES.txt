@@ -6,6 +6,6 @@ Materials: Não tenho mechido ali. Acho que veio junto com o cenário que estou us
 ---OVR: É um plugin para realidade virtual, destinado a exportar para GearVR e Dispositivos da Oculus. (Tipo Oculus Rift). Não estou usando esse.
 ---Plugins: Nem sei muito bem. Tem algo do OVR ali.
 ---Tentativas anteriores: tem umas coisas de quando estava ainda mais no começo dos estudos de Realidade Virtual... nada a se aproveitar eu acho.
----VideoClips: Tem um vídeo 360 que fiz com o CapturePanorama e o Adobe Premiere. Usei ele para testar a primeira vez isso de fazer um video e executar ele. Funcionou... tive um problema com ele depois quando tentei abrí-lo no PC do G2E, que daí não estava funcionando. Preciso investigar isso.
+---VideoClips: Tem um vídeo 360 que fiz com o CapturePanorama e o Adobe Premiere. Usei ele para testar a primeira vez isso de fazer um video e executar ele. Funcionou!
 
 Última atualização desse .txt:09/05/2018
