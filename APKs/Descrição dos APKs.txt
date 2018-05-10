@@ -13,3 +13,5 @@ Teste042803 é para ter um botão S e um N, daí quando tu encara o S por um segund
 Quando tu encara o S de novo, a idéia é que nada aconteça. O N também não deve fazer nada. Funcionou no PC, mas o video não executa no smartphone.
 
 Teste 043002 é o anterior com o recurso transcode do video clip ativado, para fins de ver se o video passa a funcionar nos smartphones.
+
+2018050900 é o mesmo que 043002 mas fiz no PC do G2E
