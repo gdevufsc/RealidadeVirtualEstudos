@@ -11,34 +11,45 @@ using UnityEngine.Video;
 
 public class MemoriaParaVideos : MonoBehaviour {
 
+    //objetos para serem desativados enquanto videos tao executando
+    public GameObject[] desativarDuranteVideos; 
     public static string enderecoAtualMemoria = "";
-    public GameObject GameObjectVideoClip0;
- //   public GameObject GameObjectVideoClip1; ...
-    VideoPlayer sphereVideoPlayer;
+    public GameObject GameObjectVideoClips;
+    public GameObject GameObjectVideoClipn;
+    //   public GameObject GameObjectVideoClip1; ...
 
     public void PlayVideo()
     {
         switch (enderecoAtualMemoria)
         {
             case "n":
-                print("casoZeroChamado");
-            break;
+                PlayVideoFromGO(GameObjectVideoClipn);
+                break;
             case "s":
-                print("Caso 1 escolhido");
-                GameObjectVideoClip0.SetActive(true);
-                VideoPlayer videoPlayer = GameObjectVideoClip0.GetComponent<VideoPlayer>();
-                StartCoroutine(GetRidOfSphere(videoPlayer));
-            break;
+                PlayVideoFromGO(GameObjectVideoClips);
+                break;
             default:
-                print("defalut");
+                print("defalut atingido no switch");
             break;
         }
+        //a proxima estah ae para testes. A logica de concatenar s e n nao vai funcionar com ela 
+        enderecoAtualMemoria = ""; // tem que apagar quando crescer a arvore de s e n
+        //******************************************************
     }
 
+    //funcao para dar play no video a partir da esfera configurada
+    public void PlayVideoFromGO (GameObject GO) {
+        GO.SetActive(true);
+        VideoPlayer videoPlayer = GO.GetComponent<VideoPlayer>();
+        StartCoroutine(GetRidOfSphere(videoPlayer));
+    }
+
+    //no tempo certo ativa e desativa objetos e a esfera video player
     IEnumerator GetRidOfSphere(VideoPlayer sphereVideoPlayer)
     {
+        DesativarObjetos();
         int k = 0;
-        while (!sphereVideoPlayer.isPlaying && k<600)
+        while (!sphereVideoPlayer.isPlaying && k<1200)
         {
             k++;
             yield return null;
@@ -50,6 +61,19 @@ public class MemoriaParaVideos : MonoBehaviour {
             yield return null;
         }
         sphereVideoPlayer.gameObject.SetActive(false);
+        AtivarObjetos();
+    }
+
+    public void DesativarObjetos () {
+        foreach (GameObject go in desativarDuranteVideos) {
+            go.SetActive(false);
+        }
+    }
+
+    public void AtivarObjetos () {
+        foreach (GameObject go in desativarDuranteVideos) {
+            go.SetActive(true);
+        }
     }
 
  /*   public void ConvertEnderecoToIndex()

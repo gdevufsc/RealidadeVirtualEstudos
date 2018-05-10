@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/AssetsNovosOrganizados/Scenes/SistemaDeSimENaoEPlayVideo.unity
+- path: Assets/AssetsNovosOrganizados/Scenes/SimENaoComACabeca.unity
   isLoaded: 1
   isActive: 1

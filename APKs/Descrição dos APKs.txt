@@ -1,4 +1,5 @@
 Está organizado por data.. mês, dia e versão 04/01/02 vira 040102
+ou por anoMesDiaVersão, tipo 2018050900
 
 Teste040102 é uma cena de olhar para uma bola verde e ela trocar de lugar depois de 1 segundo
 É interessante observar que se quiser fazer um sistema de UI com meshes, vai ter que colocar uma na frente de cada olho, pra tentar.
@@ -15,3 +16,5 @@ Quando tu encara o S de novo, a idéia é que nada aconteça. O N também não deve f
 Teste 043002 é o anterior com o recurso transcode do video clip ativado, para fins de ver se o video passa a funcionar nos smartphones.
 
 2018050900 é o mesmo que 043002 mas fiz no PC do G2E
+
+2018051000 e 01 sao implementacoes de dizer sim ou nao com a cabeca, alternando o olhar entre os Quads S e N. Alem disso, o N estah executando um video com som. Nao estah precisando reiniciar o app para testar de novo.
