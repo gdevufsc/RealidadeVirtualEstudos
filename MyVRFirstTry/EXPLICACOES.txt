@@ -1,0 +1,4 @@
+A única pasta aqui que eu mexo é a Assets né, como se espera de um projeto da Unity.
+---_2018-04-28_02-18-03-316: é uma foto 360 de um cenario experimental do projeto. Não sei porque está ali.
+
+Última atualização desse .txt:09/05/2018

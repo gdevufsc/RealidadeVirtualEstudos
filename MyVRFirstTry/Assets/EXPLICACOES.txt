@@ -1,0 +1,11 @@
+---AssetsNovosOrganizados: é onde estou (Cainã) trabalhando mais no momento, onde procuro por as coisas...
+---AssetsParaPlayVideo360: são uns assets que baixei para poder dar play em video 360 (né). Baixei eles a partir de um link de um video no youtube que ensinava a mexer com isso. Não lembro exatamente, mas talvez seja esse video https://www.youtube.com/watch?v=xyLkPVehdA8 . Se não, é um muito parecido.
+---CapturePanorama: é um plugin, com o nomo Capture Panorama, para capturar imagens 360 na Unity. Uso a sequencia de imagens para gerar um video 360.
+---GoogleVR: é um plugin para realidade virtual. Para exportar para Android
+Materials: Não tenho mechido ali. Acho que veio junto com o cenário que estou usando.
+---OVR: É um plugin para realidade virtual, destinado a exportar para GearVR e Dispositivos da Oculus. (Tipo Oculus Rift). Não estou usando esse.
+---Plugins: Nem sei muito bem. Tem algo do OVR ali.
+---Tentativas anteriores: tem umas coisas de quando estava ainda mais no começo dos estudos de Realidade Virtual... nada a se aproveitar eu acho.
+---VideoClips: Tem um vídeo 360 que fiz com o CapturePanorama e o Adobe Premiere. Usei ele para testar a primeira vez isso de fazer um video e executar ele. Funcionou... tive um problema com ele depois quando tentei abrí-lo no PC do G2E, que daí não estava funcionando. Preciso investigar isso.
+
+Última atualização desse .txt:09/05/2018
