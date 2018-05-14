@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/AssetsNovosOrganizados/Scenes/SimENaoComACabeca.unity
+- path: Assets/AssetsNovosOrganizados/Scenes/prototipo001.unity
   isLoaded: 1
   isActive: 1
