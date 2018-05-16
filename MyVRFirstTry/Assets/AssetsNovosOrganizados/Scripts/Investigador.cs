@@ -12,7 +12,7 @@ public class Investigador : MonoBehaviour {
 
 	void Start () {
         Invoke("VcJahViu" , tempoAtehFalar);
-        HeadSeN.SetActive(true);
+        //HeadSeN.SetActive(true);
 	}
 	
 	// Update is called once per frame
@@ -22,5 +22,22 @@ public class Investigador : MonoBehaviour {
 
     void VcJahViu () {
         olhosDoInvestigador.PlayOneShot(audioVcJahViu);
+        StartCoroutine(MostraHeadSeNAoFimDaPergunta());
+    }
+
+    //essa corrotina verifica se o audio estah sendo executado, para no fim ativar o objet HeadSeN
+    IEnumerator MostraHeadSeNAoFimDaPergunta () {
+        int k = 0;
+        //verifica-se se jah comecou, pois tem um delay do metodo PlayOneShot ateh comecar
+        while (!olhosDoInvestigador.isPlaying && k < 1200) { //se nao comecar em 20s, esquece
+            k++;
+            yield return null;
+        }
+        k = 0; //verifica se terminou. 3600 = 60*60 = 60 frames * 60 segundos = 3600 frames
+        while (olhosDoInvestigador.isPlaying && k < 3600) { //se nao terminar em um minuto, aborta
+            k++;
+            yield return null;
+        }
+        HeadSeN.SetActive(true);
     }
 }

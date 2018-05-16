@@ -11,19 +11,23 @@ public class HeadSeNControle : MonoBehaviour {
 
     string sequencia = ""; //eh onde vai ser concatenado s e n
     public double tempoParaResetar=2; // tempo para fazer sequencia=""
-    public int quantasVezesEncaraQuads=2; //vezes que tu precisa olhar para um quad X para concatenar X
+    public int quantasVezesEncaraQuads=3; //vezes que tu precisa olhar para um quad X para concatenar X
     double cont = 0; // contador para o tempo
     string sequenciaS = "", sequenciaN =""; //variaveis auxiliares para guardar a sequencia de s ou n
     //a serem atingidas.
 
     public MemoriaParaVideos memoriaParaVideos; //referencias a essa classe que controla os videos nesse app
-    public GameObject SUp, SDown, SLeft, SRight; //sao os objetos Quads, isto eh, os S e N
+    //public GameObject SUp, SDown, SLeft, SRight; //sao os objetos Quads, isto eh, os S e N
+
+    public bool segueACabeca;
     
     //aqui estah sendo setado a sequencia alvo, de acordo com o tamanho "quantasVezesEncaraQuad"
     private void Start () {
         for (int i=0 ; i<quantasVezesEncaraQuads ; i++) {
             sequenciaS += 's'; sequenciaN += 'n';
         }
+        if (segueACabeca)
+            CentralizaComACamera();
     }
 
     void Update () {
@@ -33,6 +37,8 @@ public class HeadSeNControle : MonoBehaviour {
         } else {
             cont = 0;
             sequencia = "";
+            if (segueACabeca)
+            CentralizaComACamera();
         }
         
 	}
@@ -72,10 +78,20 @@ public class HeadSeNControle : MonoBehaviour {
     void AcaoParaSim () {
         MemoriaParaVideos.enderecoAtualMemoria += 's';
         memoriaParaVideos.PlayVideo();
+        gameObject.SetActive(false);
     }
 
     void AcaoParaNao () {
         MemoriaParaVideos.enderecoAtualMemoria += 'n';
         memoriaParaVideos.PlayVideo();
+        gameObject.SetActive(false);
+    }
+
+    //esse metodo faz o sistema de HeadSeN (S e N) aparecer na frente da camera
+    void CentralizaComACamera () {
+        transform.SetParent(Camera.main.transform);
+        transform.localPosition = new Vector3(0, 0, 1);
+        transform.localEulerAngles = new Vector3(0 , -90 , 0);
+        transform.SetParent(null);
     }
 }
