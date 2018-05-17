@@ -32,7 +32,7 @@ public class MemoriaParaVideos : MonoBehaviour {
                 PlayVideoFromGO(GameObjectVideoClips);
                 break;
             default:
-                print("defalut atingido no switch");
+                print("default atingido no switch");
             break;
         }
         //a proxima estah ae para testes. A logica de concatenar s e n nao vai funcionar com ela 

@@ -78,7 +78,8 @@ public class HeadSeNControle : MonoBehaviour {
     void AcaoParaSim () {
         MemoriaParaVideos.enderecoAtualMemoria += 's';
         memoriaParaVideos.PlayVideo();
-        gameObject.SetActive(false);
+        this.gameObject.SetActive(false);
+        //gameObject.
     }
 
     void AcaoParaNao () {
