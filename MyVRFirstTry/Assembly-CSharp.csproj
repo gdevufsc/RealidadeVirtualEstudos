@@ -61,6 +61,7 @@
   <ItemGroup>
     <Compile Include="Assets\AssetsNovosOrganizados\Scripts\BackButtonLeavesApp.cs" />
     <Compile Include="Assets\AssetsNovosOrganizados\Scripts\CameraRaycaster.cs" />
+    <Compile Include="Assets\AssetsNovosOrganizados\Scripts\CarregaCenaAoAudioAcabar.cs" />
     <Compile Include="Assets\AssetsNovosOrganizados\Scripts\HeadSeNControle.cs" />
     <Compile Include="Assets\AssetsNovosOrganizados\Scripts\Interactable.cs" />
     <Compile Include="Assets\AssetsNovosOrganizados\Scripts\Investigador.cs" />

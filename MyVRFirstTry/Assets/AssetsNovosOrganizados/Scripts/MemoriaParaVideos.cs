@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Video;
+using UnityEngine.SceneManagement;
+
 
 ///esse script implementa um sistema para instanciar esferas para exibir videos 360.
 ///alem disso, controla qual video sera exibido atraves de uma variavel String aa qual
@@ -23,7 +25,8 @@ public class MemoriaParaVideos : MonoBehaviour {
         switch (enderecoAtualMemoria)
         {
             case "n":
-                PlayVideoFromGO(GameObjectVideoClipn);
+                SceneManager.LoadScene("FlashBack001Rodoviaria");
+                //PlayVideoFromGO(GameObjectVideoClipn);
                 break;
             case "s":
                 PlayVideoFromGO(GameObjectVideoClips);
