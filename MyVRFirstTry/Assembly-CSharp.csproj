@@ -60,6 +60,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\AssetsNovosOrganizados\Scripts\BackButtonLeavesApp.cs" />
+    <Compile Include="Assets\AssetsNovosOrganizados\Scripts\BlocoInteracao.cs" />
     <Compile Include="Assets\AssetsNovosOrganizados\Scripts\CameraRaycaster.cs" />
     <Compile Include="Assets\AssetsNovosOrganizados\Scripts\CarregaCenaAoAudioAcabar.cs" />
     <Compile Include="Assets\AssetsNovosOrganizados\Scripts\HeadSeNControle.cs" />
@@ -72,6 +73,7 @@
     <Compile Include="Assets\AssetsNovosOrganizados\Scripts\Sim.cs" />
     <Compile Include="Assets\AssetsNovosOrganizados\Scripts\Sugar.cs" />
     <Compile Include="Assets\AssetsNovosOrganizados\Scripts\TemSliderEContaTempo.cs" />
+    <Compile Include="Assets\AssetsNovosOrganizados\Scripts\UseSugar.cs" />
     <Compile Include="Assets\AssetsParaPlayVideo360\MouseLook.cs" />
     <Compile Include="Assets\CapturePanorama\CapturePanorama.cs" />
     <Compile Include="Assets\CapturePanorama\Scripts\Icosphere.cs" />

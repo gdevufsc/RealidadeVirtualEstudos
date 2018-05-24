@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/AssetsNovosOrganizados/Scenes/FlashBack001Rodoviaria - Copia.unity
+- path: Assets/AssetsNovosOrganizados/Scenes/FlashBack001Rodoviaria.unity
   isLoaded: 1
   isActive: 1

@@ -18,7 +18,12 @@ public class MemoriaParaVideos : MonoBehaviour {
     public static string enderecoAtualMemoria = "";
     public GameObject GameObjectVideoClips;
     public GameObject GameObjectVideoClipn;
+    public static bool jahViuFlashback=false;
     //   public GameObject GameObjectVideoClip1; ...
+
+    public static void SetJahViuFlashback (bool jahViu) {
+        jahViuFlashback = jahViu;
+    }
 
     public void PlayVideo()
     {

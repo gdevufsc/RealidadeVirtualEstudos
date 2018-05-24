@@ -15,6 +15,7 @@ public class HeadSeNControle : MonoBehaviour {
     double cont = 0; // contador para o tempo
     string sequenciaS = "", sequenciaN =""; //variaveis auxiliares para guardar a sequencia de s ou n
     //a serem atingidas.
+    public Investigador investigador;
 
     public MemoriaParaVideos memoriaParaVideos; //referencias a essa classe que controla os videos nesse app
     //public GameObject SUp, SDown, SLeft, SRight; //sao os objetos Quads, isto eh, os S e N
@@ -74,17 +75,19 @@ public class HeadSeNControle : MonoBehaviour {
         }// soh pq nao pegou no comeco e o player estah tentando sem parar dizer S ou N
     }
 
-    //nas acoes atualmente estao sendo chamadas essas classes que startam videos 360
+    //nas acoes atualmente estah sendo chamada a interacao do investigador
     void AcaoParaSim () {
         MemoriaParaVideos.enderecoAtualMemoria += 's';
-        memoriaParaVideos.PlayVideo();
+        //memoriaParaVideos.PlayVideo();
+        investigador.Interagir();
         this.gameObject.SetActive(false);
         //gameObject.
     }
 
     void AcaoParaNao () {
         MemoriaParaVideos.enderecoAtualMemoria += 'n';
-        memoriaParaVideos.PlayVideo();
+        //memoriaParaVideos.PlayVideo();
+        investigador.Interagir();
         gameObject.SetActive(false);
     }
 

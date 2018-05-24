@@ -5,7 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class CarregaCenaAoAudioAcabar : MonoBehaviour {
     public AudioSource olhosDoInvestigador;
-    // Use this for initialization
+    public BlocoInteracao blocoInteracao;
+
     void Start () {
         StartCoroutine(carregaCenaAoAudioAcabar());
 	}
@@ -27,6 +28,7 @@ public class CarregaCenaAoAudioAcabar : MonoBehaviour {
             k++;
             yield return null;
         }
-        SceneManager.LoadScene("prototipo001");
+        blocoInteracao.podeInteragir = true;
+        //SceneManager.LoadScene("prototipo001");
     }
 }
