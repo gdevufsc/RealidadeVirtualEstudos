@@ -20,6 +20,6 @@ public class UseSugar :TemSliderEContaTempo {
             sugar.SetActive(false);
             yield return new WaitForSeconds(1);
         }
-        SceneManager.LoadScene("protoripo001");
+        SceneManager.LoadScene("prototipo001");
     }
 }

@@ -39,7 +39,7 @@ public class TemSliderEContaTempo : MonoBehaviour {
 
     IEnumerator ActionCoroutine()
     {
-        Vector3 SugarAjusteY = new Vector3(0, -.5f, 0);
+        Vector3 SugarAjusteY = ajusteY;//new Vector3(0, -.5f, 0);
         //--------------------inicio da lógica de fazer o slider e contar o tempo
         GameObject sliderImprovisado = Instantiate(SliderImprovisado, transform.position + SugarAjusteY, Quaternion.identity);
         Vector3 OriginalScale = sliderImprovisado.transform.localScale; //essas linhas instanciam o sliderImprovisado

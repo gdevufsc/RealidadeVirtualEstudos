@@ -1,22 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-public class CarregaCenaAoAudioAcabar : MonoBehaviour {
+public class FazAlgoAoAcabarAudio : MonoBehaviour {
     public AudioSource olhosDoInvestigador;
-    public BlocoInteracao blocoInteracao;
+    protected delegate void MyDelegate ();
+    protected MyDelegate myDelegate;
 
     void Start () {
-        StartCoroutine(carregaCenaAoAudioAcabar());
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+        StartCoroutine(AoAudioAcabar());
+    }
 
-    IEnumerator carregaCenaAoAudioAcabar () {
+    IEnumerator AoAudioAcabar () {
         int k = 0;
         //verifica-se se jah comecou, pois tem um delay do metodo PlayOneShot ateh comecar
         while (!olhosDoInvestigador.isPlaying && k < 1200) { //se nao comecar em 20s, esquece
@@ -28,7 +23,12 @@ public class CarregaCenaAoAudioAcabar : MonoBehaviour {
             k++;
             yield return null;
         }
-        blocoInteracao.podeInteragir = true;
+
+        myDelegate();
+        //exemplos de coisas pra colocar numa funcao que seria adicionada ( += ) ao delegate
+        /*blocoInteracao.podeInteragir = true;
+        animatorBloco.SetTrigger("comecaAnim");
+        gameObject.GetComponent<Animator>().SetTrigger("comecaAnim");*/
         //SceneManager.LoadScene("prototipo001");
     }
 }

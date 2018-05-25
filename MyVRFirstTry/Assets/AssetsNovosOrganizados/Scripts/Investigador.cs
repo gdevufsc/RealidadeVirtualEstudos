@@ -26,12 +26,13 @@ public class Investigador : MonoBehaviour {
 	}
 
     public void Interagir () {
+        print("interagir chamado");
         switch (MemoriaParaVideos.enderecoAtualMemoria.Length) {
             case 1:
                 Passo1();
                 break;
             case 2:
-                //Passo2();
+                Passo2();
                 break;
             //... assim por diante
             default:
@@ -39,17 +40,24 @@ public class Investigador : MonoBehaviour {
         }
     }
 
-    public void Passo1 () {
-        if (!MemoriaParaVideos.jahViuFlashback) {
+    void Passo1 () {
+        print("passo 1 chamado");
+   //     if (!MemoriaParaVideos.jahViuFlashback) {
             Invoke("VcUsouODinheiro" , tempoAtehFalar);
-        } else {
-            HeadSeN.SetActive(true);
-        }
+    //    } else {
+    //        HeadSeN.SetActive(true);
+    //    }
+    }
+
+    void Passo2 () {
+        print("passo 2 chamado");
     }
 
     void VcUsouODinheiro () {
+        print("Vc usou o dinheiro chamado");
         olhosDoInvestigador.PlayOneShot(vcUsouODinheiro);
-        //StartCoroutine(ChamaFlashBack());
+        StartCoroutine(ChamaFlashBack("FlashBack002ComprandoFichas"));
+
     }
 
     void VcJahViu () {

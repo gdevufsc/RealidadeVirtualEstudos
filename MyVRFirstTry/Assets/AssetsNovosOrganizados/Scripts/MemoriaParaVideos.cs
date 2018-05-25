@@ -30,11 +30,12 @@ public class MemoriaParaVideos : MonoBehaviour {
         switch (enderecoAtualMemoria)
         {
             case "n":
-                SceneManager.LoadScene("FlashBack001Rodoviaria");
+                //SceneManager.LoadScene("FlashBack001Rodoviaria");
                 //PlayVideoFromGO(GameObjectVideoClipn);
-                break;
+                //break;
             case "s":
-                PlayVideoFromGO(GameObjectVideoClips);
+                //PlayVideoFromGO(GameObjectVideoClips);
+                print("disse Sim ou Nao");
                 break;
             default:
                 print("default atingido no switch");

@@ -81,7 +81,6 @@ public class HeadSeNControle : MonoBehaviour {
         //memoriaParaVideos.PlayVideo();
         investigador.Interagir();
         this.gameObject.SetActive(false);
-        //gameObject.
     }
 
     void AcaoParaNao () {
