@@ -2,4 +2,4 @@ Nesse repositorio vou procurar deixar um .txt nomeado EXPLICACOES em cada pasta.
 Nessa pasta:
 ---APKs: é uma pasta com arquivos .apk ou seja, builds para android, prontas para instalar. Não que estejam boas ou funcionando.
 ---MyVRFirstTry é um projeto da Unity que uso para estudar VR
----mapa_mental_rotfather_VR_V2 é um mapa mental do design do jogo em VR que estamos pretendendo fazer no G2E. No famoso drive do G2E (NOVO-KANE>Realidade Virtual>) pode se encontrar mais materiais a respeito disso. Atualmente não muuito organizados.
+---20180525ExplicandoScripts é um videozinho que fiz na data referida explicando os principais scripts do jogo

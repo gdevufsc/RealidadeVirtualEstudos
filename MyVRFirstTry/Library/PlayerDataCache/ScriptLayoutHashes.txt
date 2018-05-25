@@ -1,8 +1,10 @@
 Android
 PlayerPath?
-C:/Users/G2E/Documents/GitHub/RealidadeVirtualEstudos/APKs/2018051001.apk
+C:/Users/G2E/Documents/GitHub/RealidadeVirtualEstudos/APKs/2018052500.apk
 SceneListBegin?
-Assets/AssetsNovosOrganizados/Scenes/SimENaoComACabeca.unity
+Assets/AssetsNovosOrganizados/Scenes/prototipo001.unity
+Assets/AssetsNovosOrganizados/Scenes/FlashBack001Rodoviaria.unity
+Assets/AssetsNovosOrganizados/Scenes/FlashBack002ComprandoFichas.unity
 SceneListEnd?
 176f67aae4ec7273cfef37fd8876bd9a Assembly-CSharp.dll:.GvrDropdown
 047843e8fc8efc789ac0ebf61a6343c3 Assembly-CSharp.dll:GoogleVR.HelloVR.HeadsetDemoManager
@@ -21,10 +23,13 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 30afa8783a8bbee2e465ec9ce1efaee2 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 607d64d2c4bc76ac9876e6f7b9cc7edf UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
 bfddcc339fade781f72a7bb9403d51f3 Assembly-CSharp.dll:.OVRGazePointer
+65e6c878f10b1e846e78ccf2585c7547 Assembly-CSharp.dll:.FazAlgoAoAcabarAnimacao
 5979728add95abdc642051d92f726e95 Assembly-CSharp.dll:.OVRDebugHeadController
+65e6c878f10b1e846e78ccf2585c7547 Assembly-CSharp.dll:.FichasGuiche
 09da61ba0ef26d77645f23cec252b635 Assembly-CSharp.dll:.OVRManager
 228303069e44eb1f7f68e3c0519e6057 Assembly-CSharp.dll:.GvrVideoPlayerTexture
 863cc4abebe62d7d63247da8bce1a23e Assembly-CSharp.dll:CapturePanorama.Internals.ScreenFadeControl
+015e39ea3daceef9784184bf084c0154 Assembly-CSharp.dll:.RatoRodoviaria
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 49cd62a578efc0a599b810a2b66cd49c UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -140,6 +145,7 @@ fb3ee2893af01293f100982698dc0b3b Assembly-CSharp.dll:.GambiarraScript
 5adc88bf7d1c618314bc1a0f0b3d6c47 Assembly-CSharp.dll:.GvrAudioSoundfield
 bb0ad8cb9cb04ab265277fa3ffe5f4ff Assembly-CSharp.dll:GoogleVR.VideoDemo.ToggleAction
 aeedd33047ed050c15c29a5fb4ee7376 Assembly-CSharp.dll:.TemSliderEContaTempo
+c5e9fbcd8be1a4ceaffe5a9013d1c8ab Assembly-CSharp.dll:.Investigador
 6c2d0e8bd6a0954a0dcfdf712749f082 Assembly-CSharp.dll:CapturePanorama.ReadPanoConfig
 322cb40e1e282f28af980cbef7922a90 UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsEventTracker
 dc07d7ad69b399a46e92c483bf1c04ca UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsTracker
@@ -186,6 +192,7 @@ a924c90a95cf65003f662aa5e30abb6b Vuforia.UnityExtensions.dll:Vuforia.VuforiaConf
 01e6f145049f3a676df6dc247eabf176 Vuforia.UnityExtensions.dll:Vuforia.VuMarkBehaviour
 3d1b89310e77c34bc0c8d7132231345c Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 05524b8f659e7bfe5756d1335fec24ba Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
+a58268ffa33053ea6d2f6aef8a82a376 Assembly-CSharp.dll:.FazAlgoAoAcabarAudio
 bc79872c81f3cda9be1ec427f70f92aa Vuforia.UnityExtensions.dll:Vuforia.AnchorBehaviour
 0561521e336e270e6e5a9c61387cb838 Vuforia.UnityExtensions.dll:Vuforia.AnchorInputListenerBehaviour
 bc79872c81f3cda9be1ec427f70f92aa Vuforia.UnityExtensions.dll:Vuforia.AnchorStageBehaviour
@@ -219,6 +226,9 @@ a924c90a95cf65003f662aa5e30abb6b Vuforia.UnityExtensions.dll:Vuforia.VuforiaConf
 01e6f145049f3a676df6dc247eabf176 Vuforia.UnityExtensions.dll:Vuforia.VuMarkBehaviour
 3d1b89310e77c34bc0c8d7132231345c Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 05524b8f659e7bfe5756d1335fec24ba Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
+d752d239523f8f8faf8570e04e5f62e3 Assembly-CSharp.dll:.BlocoInteracao
+7d458d6fd766d58e2d9b3b5b5c2ad6b0 Assembly-CSharp.dll:.RatoGuiche
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.BackButtonLeavesApp
 d901a86ed3b50a8058d78917b008b820 Assembly-CSharp.dll:.MyScriptRed
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.OVRDebugInfo
 03f12694d8815c5c1846b514244afecc Assembly-CSharp.dll:.GvrAllEventsTrigger
@@ -231,6 +241,7 @@ ccd25ccca39fd5159c3471f7762e1ced Assembly-CSharp.dll:.OVRMonoscopic
 74a6fefe8bd94289ab461e70916d7ac3 Assembly-CSharp.dll:.OVRGrabbable
 1e042027c649b7b536a46a4e0335362a Assembly-CSharp.dll:.OVRCubemapCapture
 31e91faba2267dbf8c0fe528bca54ff7 Assembly-CSharp.dll:.GvrLaserPointer
+19b1a9924a9b37e757ff79cfaed31eec Assembly-CSharp.dll:.InteractableDinheiro
 9a93f748b7c6fda90f20cf8d995df907 Assembly-CSharp.dll:.OVRModeParms
 32e8fe00b63ed946490b898f6024a2f2 Facebook.Unity.Settings.dll:Facebook.Unity.Settings.FacebookSettings
 7da42ff76b471a89ac72bc31d7c7ad6d Assembly-CSharp.dll:.OVRGearVrControllerTest
@@ -250,11 +261,12 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 73843688b51256aed059f049c540bca8 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 528ea1fd7c01796fc60c4e2f172ea229 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
 72903e4446a2f2d54923b10a70b2c5ba Assembly-CSharp.dll:Gvr.Internal.InstantPreview
-5efe3a416babbafa01178a6d92cdac9c Assembly-CSharp.dll:.MemoriaParaVideos
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Memoria
 7b7745d8d1ab7fe13f98bfffbf52c18d Assembly-CSharp.dll:.OVRWaitCursor
 1c952386af3ef6bd3c90a34c4fd12f6b Assembly-CSharp.dll:GoogleVR.HelloVR.ObjectController
 ccd25ccca39fd5159c3471f7762e1ced Assembly-CSharp.dll:.OVRChromaticAberration
 3390da0fa445ab5d676b24efb56cf5c0 Assembly-CSharp.dll:.OVRSceneSampleController
+0c052adcdbbb89d6049d191f2c39048e Assembly-CSharp.dll:.HeadSeNControle
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.GvrControllerTooltipsSimple
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
 f02726adeff0a3ec5905565234b372da UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.PlaymodeTestsController
@@ -283,6 +295,7 @@ eca6588934e978a74735e6737af683a8 Assembly-CSharp.dll:.GvrReticlePointer
 1a5e432b09bf154dd33c7153b667a205 Assembly-CSharp.dll:UnityEngine.EventSystems.OVRPhysicsRaycaster
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 7e926316ce20e4d45cb9a9aebc6e79e9 Assembly-CSharp.dll:.OVRGridCube
+1d22359c905e0b438b4f043d4a4c66fd Assembly-CSharp.dll:.UseSugar
 2a13deadfd379d1bb4ab0ebd2c20ca7e Assembly-CSharp.dll:.GvrLaserVisual
 24f6a3eb1c9b232bcf23fbcef06cdf98 Assembly-CSharp.dll:.GvrControllerVisual
 537843cf8c7f8ab266c7cd1191ca22fb Assembly-CSharp.dll:.OVRLint
@@ -372,5 +385,4 @@ a924c90a95cf65003f662aa5e30abb6b Vuforia.UnityExtensions.dll:Vuforia.VuforiaConf
 01e6f145049f3a676df6dc247eabf176 Vuforia.UnityExtensions.dll:Vuforia.VuMarkBehaviour
 3d1b89310e77c34bc0c8d7132231345c Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 05524b8f659e7bfe5756d1335fec24ba Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
-0926c7e9a25a647ad3e851fd29b8151e Assembly-CSharp.dll:.HeadSeNControle
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.BackButtonLeavesApp
+5efe3a416babbafa01178a6d92cdac9c Assembly-CSharp.dll:.MemoriaParaVideos

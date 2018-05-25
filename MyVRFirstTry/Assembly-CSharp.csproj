@@ -69,6 +69,7 @@
     <Compile Include="Assets\AssetsNovosOrganizados\Scripts\Interactable.cs" />
     <Compile Include="Assets\AssetsNovosOrganizados\Scripts\InteractableDinheiro.cs" />
     <Compile Include="Assets\AssetsNovosOrganizados\Scripts\Investigador.cs" />
+    <Compile Include="Assets\AssetsNovosOrganizados\Scripts\Memoria.cs" />
     <Compile Include="Assets\AssetsNovosOrganizados\Scripts\MemoriaParaVideos.cs" />
     <Compile Include="Assets\AssetsNovosOrganizados\Scripts\MyGvrEditorEmulator.cs" />
     <Compile Include="Assets\AssetsNovosOrganizados\Scripts\Nao.cs" />

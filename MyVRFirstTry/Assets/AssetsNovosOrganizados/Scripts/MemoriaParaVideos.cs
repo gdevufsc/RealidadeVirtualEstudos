@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.Video;
 using UnityEngine.SceneManagement;
 
+//esse script estah em desuso agora (25/05/2018)
 
 ///esse script implementa um sistema para instanciar esferas para exibir videos 360.
 ///alem disso, controla qual video sera exibido atraves de uma variavel String aa qual
@@ -18,6 +19,7 @@ public class MemoriaParaVideos : MonoBehaviour {
     public static string enderecoAtualMemoria = "";
     public GameObject GameObjectVideoClips;
     public GameObject GameObjectVideoClipn;
+
     public static bool jahViuFlashback=false;
     //   public GameObject GameObjectVideoClip1; ...
 

@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//quem ativa esse objeto atualmente eh o Investigador (25/05/2018)
+
 ///Esse script estah sendo usado na cena intitulada SimENaoComACabeca, no objeto HeadSeN
 ///A ideia eh verificar se o jogador fez que Sim ou que Nao com a cabeca, e executar algo em resposta.
 ///ele controla os 4 Quads que sao seus filhos na hierarquia, gerenciando o tempo e concatenando
@@ -17,13 +19,14 @@ public class HeadSeNControle : MonoBehaviour {
     //a serem atingidas.
     public Investigador investigador;
 
-    public MemoriaParaVideos memoriaParaVideos; //referencias a essa classe que controla os videos nesse app
+    //public Memoria Memoria; //referencias a essa classe que controla os videos nesse app
     //public GameObject SUp, SDown, SLeft, SRight; //sao os objetos Quads, isto eh, os S e N
 
-    public bool segueACabeca;
+    public bool segueACabeca; //ativar no editor para que esse objeto fique centralizando na camera
     
     //aqui estah sendo setado a sequencia alvo, de acordo com o tamanho "quantasVezesEncaraQuad"
     private void Start () {
+
         for (int i=0 ; i<quantasVezesEncaraQuads ; i++) {
             sequenciaS += 's'; sequenciaN += 'n';
         }
@@ -51,7 +54,7 @@ public class HeadSeNControle : MonoBehaviour {
         ControlaRitmo();
     }
 
-    //faz o que tem que fazer quando olharam para o S
+    //faz o que tem que fazer quando olharam para o N
     public void DizQueNao () {
         sequencia += "n";
         VerificaSequencia();
@@ -72,21 +75,21 @@ public class HeadSeNControle : MonoBehaviour {
         cont = 0; //zera o contador
         if (sequencia.Length>quantasVezesEncaraQuads) {
             sequencia = ""; //reinicia a sequencia caso esteja sendo concatenada uma coisa gigante
-        }// soh pq nao pegou no comeco e o player estah tentando sem parar dizer S ou N
+        }// soh pra qd nao pegou no comeco e o player estah tentando sem parar dizer S ou N
     }
 
     //nas acoes atualmente estah sendo chamada a interacao do investigador
     void AcaoParaSim () {
-        MemoriaParaVideos.enderecoAtualMemoria += 's';
-        //memoriaParaVideos.PlayVideo();
-        investigador.Interagir();
+        Memoria.enderecoAtualMemoria += 's';
+        //Memoria.PlayVideo();
+        investigador.Interagir(); //essa eh a linha que ele chama a interacao-----------------------------------
         this.gameObject.SetActive(false);
     }
 
     void AcaoParaNao () {
-        MemoriaParaVideos.enderecoAtualMemoria += 'n';
-        //memoriaParaVideos.PlayVideo();
-        investigador.Interagir();
+        Memoria.enderecoAtualMemoria += 'n';
+        //Memoria.PlayVideo();
+        investigador.Interagir(); //essa eh a linha que ele chama a interacao-----------------------------------
         gameObject.SetActive(false);
     }
 
